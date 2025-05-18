@@ -20,7 +20,7 @@ const int ENCODER_A_PITCH   = PA_2;     // Encoder A for pitch motor
 const int ENCODER_B_PITCH   = PA_3;     // Encoder B for pitch motor
 
 // Microswitches
-const int MS_YAW_RIGHT      = PC_13;    // Microswitch yaw - right limit
+const int MS_YAW_RIGHT      = 12;    // Microswitch yaw - right limit
 const int MS_YAW_LEFT       = PC_14;    // Microswitch yaw - left limit
 const int MS_PITCH_UP       = PC_15;    // Microswitch pitch - up limit
 const int MS_PITCH_DOWN     = PB_5;     // Microswitch pitch - down limit

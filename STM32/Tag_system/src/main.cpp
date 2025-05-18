@@ -1,50 +1,84 @@
 #include <Arduino.h>
 #include "pindefines.h"
 
-volatile bool buttonPressed = false;    // Flag to indicate button press or release
-volatile bool lastButtonState = HIGH;   // The last button state
-unsigned long lastDebounceTime = 0;     // The last time the button state was toggled
-unsigned long debounceDelay = 50;       // Debounce time (ms)
+// === BUTTON / MICROSWITCH INTERRUPT STATE ===
+volatile bool buttonPressed = false;
+volatile bool lastButtonState = HIGH;
+unsigned long lastDebounceTime = 0;
+unsigned long debounceDelay = 50;
 
+// === ENCODER STATE ===
+volatile long encoderPos = 0;
+
+// === INTERRUPT: Microswitch ===
 void handleButton() {
-  // Read the current button state
-  bool currentButtonState = digitalRead(BUTTON_PIN);
+  bool currentButtonState = digitalRead(MS_YAW_RIGHT);
 
-  // Check if the button state changed (ignores button bounce)
   if (currentButtonState != lastButtonState) {
-    lastDebounceTime = millis();  // Reset debounce timer
-    lastButtonState = currentButtonState; // Update last button state
+    lastDebounceTime = millis();
+    lastButtonState = currentButtonState;
+    buttonPressed = true;
+  }
+}
 
-    buttonPressed = true;  // Set the flag to process the button event
+// === INTERRUPT: Encoder A ===
+void handleEncoderA() {
+  bool A = digitalRead(ENCODER_A_YAW);
+  bool B = digitalRead(ENCODER_B_YAW);
+
+  if (A == B) {
+    encoderPos++;
+  } else {
+    encoderPos--;
+  }
+}
+
+// === INTERRUPT: Encoder B ===
+void handleEncoderB() {
+  bool A = digitalRead(ENCODER_A_YAW);
+  bool B = digitalRead(ENCODER_B_YAW);
+
+  if (A != B) {
+    encoderPos++;
+  } else {
+    encoderPos--;
   }
 }
 
 void setup() {
-  Serial.begin(115200);
-  pinMode(LED_PIN, OUTPUT);  // Pin for the LED
-  digitalWrite(LED_PIN, LOW); // Ensure LED is off initially
+  Serial.begin(9600);
 
-  pinMode(BUTTON_PIN, INPUT_PULLUP);  // Button connected to ground (NC configuration)
-  
-  // Trigger interrupt on both falling and rising edge (button press and release)
-  attachInterrupt(digitalPinToInterrupt(BUTTON_PIN), handleButton, CHANGE);  // Trigger on any change (both press and release)
+  // SPI_SCK used as output to simulate LED toggle
+  pinMode(SPI_SCK, OUTPUT);
+  digitalWrite(SPI_SCK, LOW);
 
-  Serial.println("Interrupt with debounce setup complete!");
+  // Microswitch setup
+  pinMode(MS_YAW_RIGHT, INPUT_PULLUP);
+  attachInterrupt(digitalPinToInterrupt(MS_YAW_RIGHT), handleButton, CHANGE);
+
+  // Encoder pin setup
+  pinMode(ENCODER_A_YAW, INPUT_PULLUP);
+  pinMode(ENCODER_B_YAW, INPUT_PULLUP);
+
+  attachInterrupt(digitalPinToInterrupt(ENCODER_A_YAW), handleEncoderA, CHANGE);
+  attachInterrupt(digitalPinToInterrupt(ENCODER_B_YAW), handleEncoderB, CHANGE);
+
+  Serial.println("Microswitch & encoder setup complete.");
 }
 
 void loop() {
-  // Only process button press if debounce time has passed
-  if (buttonPressed) {
-    unsigned long currentMillis = millis();
-    
-    // Check if enough time has passed since the last button press (debouncing)
-    if (currentMillis - lastDebounceTime > debounceDelay) {
-      buttonPressed = false;  // Reset the interrupt flag after debounce period
+  unsigned long currentMillis = millis();
 
-      // Toggle the LED state
-      digitalWrite(LED_PIN, !digitalRead(LED_PIN));
+  // Handle debounced microswitch press
+  if (buttonPressed && (currentMillis - lastDebounceTime > debounceDelay)) {
+    buttonPressed = false;
 
-      Serial.println("Button interrupt triggered!");
-    }
+    // Toggle SPI_SCK pin
+    digitalWrite(SPI_SCK, !digitalRead(SPI_SCK));
+    Serial.println("Microswitch interrupt triggered!");
   }
+
+  // Print encoder position
+  Serial.print("Encoder positie: ");
+  Serial.println(encoderPos);
 }
