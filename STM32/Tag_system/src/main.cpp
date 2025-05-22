@@ -63,6 +63,13 @@ void setup() {
   attachInterrupt(digitalPinToInterrupt(ENCODER_A_YAW), handleEncoderA, CHANGE);
   attachInterrupt(digitalPinToInterrupt(ENCODER_B_YAW), handleEncoderB, CHANGE);
 
+  // Motor yaw setup
+  pinMode(PWM_YAW, OUTPUT);
+  pinMode(YAW_DIR_LEFT, OUTPUT);
+  pinMode(YAW_DIR_RIGHT, OUTPUT);
+  digitalWrite(YAW_DIR_RIGHT, LOW);
+  digitalWrite(YAW_DIR_LEFT, HIGH);
+  
   Serial.println("Microswitch & encoder setup complete.");
 }
 
@@ -81,4 +88,6 @@ void loop() {
   // Print encoder position
   Serial.print("Encoder positie: ");
   Serial.println(encoderPos);
+
+  analogWrite(PWM_YAW, 255);
 }

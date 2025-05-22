@@ -3,7 +3,6 @@
 // Pinout reference: https://os.mbed.com/platforms/ST-Nucleo-F410RB/
 
 #pragma once
-#include <Arduino.h>
 
 // Motor Control - Yaw (First Motor)
 const int PWM_YAW           = PA_9;     // PWM for yaw motor
