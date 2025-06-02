@@ -1,0 +1,21 @@
+[1.952s] Invoking command in '/home/berko-vm/ros2_ws/src/pkg_antenna_modus': PYTHONPATH=/home/berko-vm/ros2_ws/build/pkg_antenna_modus/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/berko-vm/ros2_ws/install/pkg_antenna_modus/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_antenna_modus build --build-base /home/berko-vm/ros2_ws/build/pkg_antenna_modus/build install --record /home/berko-vm/ros2_ws/build/pkg_antenna_modus/install.log --single-version-externally-managed install_data
+[2.657s] running egg_info
+[2.657s] writing ../../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/PKG-INFO
+[2.658s] writing dependency_links to ../../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/dependency_links.txt
+[2.660s] writing entry points to ../../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/entry_points.txt
+[2.661s] writing requirements to ../../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/requires.txt
+[2.663s] writing top-level names to ../../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/top_level.txt
+[2.671s] reading manifest file '../../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/SOURCES.txt'
+[2.674s] writing manifest file '../../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/SOURCES.txt'
+[2.674s] running build
+[2.674s] running build_py
+[2.675s] running install
+[2.676s] running install_lib
+[2.681s] running install_data
+[2.682s] running install_egg_info
+[2.690s] removing '/home/berko-vm/ros2_ws/install/pkg_antenna_modus/lib/python3.10/site-packages/pkg_antenna_modus-0.0.0-py3.10.egg-info' (and everything under it)
+[2.690s] Copying ../../build/pkg_antenna_modus/pkg_antenna_modus.egg-info to /home/berko-vm/ros2_ws/install/pkg_antenna_modus/lib/python3.10/site-packages/pkg_antenna_modus-0.0.0-py3.10.egg-info
+[2.694s] running install_scripts
+[2.754s] Installing antenna_modus_node script to /home/berko-vm/ros2_ws/install/pkg_antenna_modus/lib/pkg_antenna_modus
+[2.759s] writing list of installed files to '/home/berko-vm/ros2_ws/build/pkg_antenna_modus/install.log'
+[2.830s] Invoked command in '/home/berko-vm/ros2_ws/src/pkg_antenna_modus' returned '0': PYTHONPATH=/home/berko-vm/ros2_ws/build/pkg_antenna_modus/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/berko-vm/ros2_ws/install/pkg_antenna_modus/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_antenna_modus build --build-base /home/berko-vm/ros2_ws/build/pkg_antenna_modus/build install --record /home/berko-vm/ros2_ws/build/pkg_antenna_modus/install.log --single-version-externally-managed install_data

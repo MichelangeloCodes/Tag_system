@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/PKG-INFO
+../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/SOURCES.txt
+../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/dependency_links.txt
+../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/entry_points.txt
+../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/requires.txt
+../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/top_level.txt
+../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/zip-safe
+pkg_antenna_modus/__init__.py
+pkg_antenna_modus/antenna_modus_node.py
+resource/pkg_antenna_modus
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

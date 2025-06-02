@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/pkg_antenna_modus/pkg_antenna_modus.egg-info
+writing ../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/PKG-INFO
+writing dependency_links to ../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/dependency_links.txt
+writing entry points to ../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/entry_points.txt
+writing requirements to ../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/requires.txt
+writing top-level names to ../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/top_level.txt
+writing manifest file '../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/SOURCES.txt'
+reading manifest file '../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/SOURCES.txt'
+writing manifest file '../build/pkg_antenna_modus/pkg_antenna_modus.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/berko-vm/ros2_ws/src/build/pkg_antenna_modus/build
+creating /home/berko-vm/ros2_ws/src/build/pkg_antenna_modus/build/lib
+creating /home/berko-vm/ros2_ws/src/build/pkg_antenna_modus/build/lib/pkg_antenna_modus
+copying pkg_antenna_modus/__init__.py -> /home/berko-vm/ros2_ws/src/build/pkg_antenna_modus/build/lib/pkg_antenna_modus
+copying pkg_antenna_modus/antenna_modus_node.py -> /home/berko-vm/ros2_ws/src/build/pkg_antenna_modus/build/lib/pkg_antenna_modus
+running install
+running install_lib
+creating /home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/lib/python3.10/site-packages/pkg_antenna_modus
+copying /home/berko-vm/ros2_ws/src/build/pkg_antenna_modus/build/lib/pkg_antenna_modus/__init__.py -> /home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/lib/python3.10/site-packages/pkg_antenna_modus
+copying /home/berko-vm/ros2_ws/src/build/pkg_antenna_modus/build/lib/pkg_antenna_modus/antenna_modus_node.py -> /home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/lib/python3.10/site-packages/pkg_antenna_modus
+byte-compiling /home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/lib/python3.10/site-packages/pkg_antenna_modus/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/lib/python3.10/site-packages/pkg_antenna_modus/antenna_modus_node.py to antenna_modus_node.cpython-310.pyc
+running install_data
+creating /home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/share/ament_index
+creating /home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/share/ament_index/resource_index
+creating /home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/share/ament_index/resource_index/packages
+copying resource/pkg_antenna_modus -> /home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/share/ament_index/resource_index/packages
+copying package.xml -> /home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/share/pkg_antenna_modus
+running install_egg_info
+Copying ../build/pkg_antenna_modus/pkg_antenna_modus.egg-info to /home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/lib/python3.10/site-packages/pkg_antenna_modus-0.0.0-py3.10.egg-info
+running install_scripts
+Installing antenna_modus_node script to /home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/lib/pkg_antenna_modus
+writing list of installed files to '/home/berko-vm/ros2_ws/src/build/pkg_antenna_modus/install.log'

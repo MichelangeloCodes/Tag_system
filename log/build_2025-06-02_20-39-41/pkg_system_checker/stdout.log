@@ -1,0 +1,29 @@
+running egg_info
+creating ../../build/pkg_system_checker/pkg_system_checker.egg-info
+writing ../../build/pkg_system_checker/pkg_system_checker.egg-info/PKG-INFO
+writing dependency_links to ../../build/pkg_system_checker/pkg_system_checker.egg-info/dependency_links.txt
+writing entry points to ../../build/pkg_system_checker/pkg_system_checker.egg-info/entry_points.txt
+writing requirements to ../../build/pkg_system_checker/pkg_system_checker.egg-info/requires.txt
+writing top-level names to ../../build/pkg_system_checker/pkg_system_checker.egg-info/top_level.txt
+writing manifest file '../../build/pkg_system_checker/pkg_system_checker.egg-info/SOURCES.txt'
+reading manifest file '../../build/pkg_system_checker/pkg_system_checker.egg-info/SOURCES.txt'
+writing manifest file '../../build/pkg_system_checker/pkg_system_checker.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/berko-vm/ros2_ws/build/pkg_system_checker/build
+creating /home/berko-vm/ros2_ws/build/pkg_system_checker/build/lib
+creating /home/berko-vm/ros2_ws/build/pkg_system_checker/build/lib/pkg_system_checker
+copying pkg_system_checker/check_system.py -> /home/berko-vm/ros2_ws/build/pkg_system_checker/build/lib/pkg_system_checker
+copying pkg_system_checker/__init__.py -> /home/berko-vm/ros2_ws/build/pkg_system_checker/build/lib/pkg_system_checker
+running install
+running install_lib
+creating /home/berko-vm/ros2_ws/install/pkg_system_checker/lib/python3.10/site-packages/pkg_system_checker
+copying /home/berko-vm/ros2_ws/build/pkg_system_checker/build/lib/pkg_system_checker/check_system.py -> /home/berko-vm/ros2_ws/install/pkg_system_checker/lib/python3.10/site-packages/pkg_system_checker
+copying /home/berko-vm/ros2_ws/build/pkg_system_checker/build/lib/pkg_system_checker/__init__.py -> /home/berko-vm/ros2_ws/install/pkg_system_checker/lib/python3.10/site-packages/pkg_system_checker
+byte-compiling /home/berko-vm/ros2_ws/install/pkg_system_checker/lib/python3.10/site-packages/pkg_system_checker/check_system.py to check_system.cpython-310.pyc
+byte-compiling /home/berko-vm/ros2_ws/install/pkg_system_checker/lib/python3.10/site-packages/pkg_system_checker/__init__.py to __init__.cpython-310.pyc
+running install_egg_info
+Copying ../../build/pkg_system_checker/pkg_system_checker.egg-info to /home/berko-vm/ros2_ws/install/pkg_system_checker/lib/python3.10/site-packages/pkg_system_checker-0.0.0-py3.10.egg-info
+running install_scripts
+Installing check_system script to /home/berko-vm/ros2_ws/install/pkg_system_checker/lib/pkg_system_checker
+writing list of installed files to '/home/berko-vm/ros2_ws/build/pkg_system_checker/install.log'

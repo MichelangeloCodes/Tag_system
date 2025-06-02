@@ -1,0 +1,3 @@
+[console_scripts]
+check_system = pkg_system_checker.check_system:main
+

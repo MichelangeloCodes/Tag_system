@@ -1,0 +1,22 @@
+[2.865s] Invoking command in '/home/berko-vm/ros2_ws/src/pkg_img': PYTHONPATH=/home/berko-vm/ros2_ws/build/pkg_img/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/berko-vm/ros2_ws/install/pkg_img/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_img build --build-base /home/berko-vm/ros2_ws/build/pkg_img/build install --record /home/berko-vm/ros2_ws/build/pkg_img/install.log --single-version-externally-managed install_data
+[3.560s] running egg_info
+[3.562s] writing ../../build/pkg_img/pkg_img.egg-info/PKG-INFO
+[3.567s] writing dependency_links to ../../build/pkg_img/pkg_img.egg-info/dependency_links.txt
+[3.567s] writing entry points to ../../build/pkg_img/pkg_img.egg-info/entry_points.txt
+[3.568s] writing requirements to ../../build/pkg_img/pkg_img.egg-info/requires.txt
+[3.568s] writing top-level names to ../../build/pkg_img/pkg_img.egg-info/top_level.txt
+[3.574s] reading manifest file '../../build/pkg_img/pkg_img.egg-info/SOURCES.txt'
+[3.577s] writing manifest file '../../build/pkg_img/pkg_img.egg-info/SOURCES.txt'
+[3.577s] running build
+[3.577s] running build_py
+[3.579s] running install
+[3.582s] running install_lib
+[3.585s] running install_data
+[3.585s] running install_egg_info
+[3.588s] removing '/home/berko-vm/ros2_ws/install/pkg_img/lib/python3.10/site-packages/pkg_img-0.0.0-py3.10.egg-info' (and everything under it)
+[3.592s] Copying ../../build/pkg_img/pkg_img.egg-info to /home/berko-vm/ros2_ws/install/pkg_img/lib/python3.10/site-packages/pkg_img-0.0.0-py3.10.egg-info
+[3.597s] running install_scripts
+[3.645s] Installing cam_publisher script to /home/berko-vm/ros2_ws/install/pkg_img/lib/pkg_img
+[3.646s] Installing image_view script to /home/berko-vm/ros2_ws/install/pkg_img/lib/pkg_img
+[3.648s] writing list of installed files to '/home/berko-vm/ros2_ws/build/pkg_img/install.log'
+[3.719s] Invoked command in '/home/berko-vm/ros2_ws/src/pkg_img' returned '0': PYTHONPATH=/home/berko-vm/ros2_ws/build/pkg_img/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/berko-vm/ros2_ws/install/pkg_img/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_img build --build-base /home/berko-vm/ros2_ws/build/pkg_img/build install --record /home/berko-vm/ros2_ws/build/pkg_img/install.log --single-version-externally-managed install_data

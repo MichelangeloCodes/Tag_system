@@ -1,0 +1,213 @@
+[0.875s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.876s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ac82b0a7e20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ac82b261180>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ac82b261180>>)
+[1.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.572s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/berko-vm/ros2_ws/src'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(launch_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(launch_pkg) by extension 'ignore'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(launch_pkg) by extension 'ignore_ament_install'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(launch_pkg) by extensions ['colcon_pkg']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(launch_pkg) by extension 'colcon_pkg'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(launch_pkg) by extensions ['colcon_meta']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(launch_pkg) by extension 'colcon_meta'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(launch_pkg) by extensions ['ros']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(launch_pkg) by extension 'ros'
+[1.619s] DEBUG:colcon.colcon_core.package_identification:Package 'launch_pkg' with type 'ros.ament_python' and name 'launch_pkg'
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_antenna_modus) by extensions ['ignore', 'ignore_ament_install']
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_antenna_modus) by extension 'ignore'
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_antenna_modus) by extension 'ignore_ament_install'
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_antenna_modus) by extensions ['colcon_pkg']
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_antenna_modus) by extension 'colcon_pkg'
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_antenna_modus) by extensions ['colcon_meta']
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_antenna_modus) by extension 'colcon_meta'
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_antenna_modus) by extensions ['ros']
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_antenna_modus) by extension 'ros'
+[1.623s] DEBUG:colcon.colcon_core.package_identification:Package 'pkg_antenna_modus' with type 'ros.ament_python' and name 'pkg_antenna_modus'
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_img) by extensions ['ignore', 'ignore_ament_install']
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_img) by extension 'ignore'
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_img) by extension 'ignore_ament_install'
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_img) by extensions ['colcon_pkg']
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_img) by extension 'colcon_pkg'
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_img) by extensions ['colcon_meta']
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_img) by extension 'colcon_meta'
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_img) by extensions ['ros']
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_img) by extension 'ros'
+[1.625s] DEBUG:colcon.colcon_core.package_identification:Package 'pkg_img' with type 'ros.ament_python' and name 'pkg_img'
+[1.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.711s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.711s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.725s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/berko-vm/ros2_ws/install
+[1.728s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[1.732s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.836s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg' build argument 'cmake_args' from command line to 'None'
+[1.836s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg' build argument 'cmake_target' from command line to 'None'
+[1.837s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.837s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.837s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.837s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.837s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.837s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.837s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.837s] DEBUG:colcon.colcon_core.verb:Building package 'launch_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/berko-vm/ros2_ws/src/build/launch_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/berko-vm/ros2_ws/src/install/launch_pkg', 'merge_install': False, 'path': '/home/berko-vm/ros2_ws/src/launch_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'pkg_antenna_modus' build argument 'cmake_args' from command line to 'None'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'pkg_antenna_modus' build argument 'cmake_target' from command line to 'None'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'pkg_antenna_modus' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'pkg_antenna_modus' build argument 'cmake_clean_cache' from command line to 'False'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'pkg_antenna_modus' build argument 'cmake_clean_first' from command line to 'False'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'pkg_antenna_modus' build argument 'cmake_force_configure' from command line to 'False'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'pkg_antenna_modus' build argument 'ament_cmake_args' from command line to 'None'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'pkg_antenna_modus' build argument 'catkin_cmake_args' from command line to 'None'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'pkg_antenna_modus' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.838s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_antenna_modus' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/berko-vm/ros2_ws/src/build/pkg_antenna_modus', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus', 'merge_install': False, 'path': '/home/berko-vm/ros2_ws/src/pkg_antenna_modus', 'symlink_install': False, 'test_result_base': None}
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'pkg_img' build argument 'cmake_args' from command line to 'None'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'pkg_img' build argument 'cmake_target' from command line to 'None'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'pkg_img' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'pkg_img' build argument 'cmake_clean_cache' from command line to 'False'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'pkg_img' build argument 'cmake_clean_first' from command line to 'False'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'pkg_img' build argument 'cmake_force_configure' from command line to 'False'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'pkg_img' build argument 'ament_cmake_args' from command line to 'None'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'pkg_img' build argument 'catkin_cmake_args' from command line to 'None'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'pkg_img' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.839s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_img' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/berko-vm/ros2_ws/src/build/pkg_img', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/berko-vm/ros2_ws/src/install/pkg_img', 'merge_install': False, 'path': '/home/berko-vm/ros2_ws/src/pkg_img', 'symlink_install': False, 'test_result_base': None}
+[1.839s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.842s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.843s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/berko-vm/ros2_ws/src/launch_pkg' with build type 'ament_python'
+[1.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_pkg', 'ament_prefix_path')
+[1.861s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berko-vm/ros2_ws/src/install/launch_pkg/share/launch_pkg/hook/ament_prefix_path.ps1'
+[1.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/berko-vm/ros2_ws/src/install/launch_pkg/share/launch_pkg/hook/ament_prefix_path.dsv'
+[1.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berko-vm/ros2_ws/src/install/launch_pkg/share/launch_pkg/hook/ament_prefix_path.sh'
+[1.870s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.870s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.879s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/berko-vm/ros2_ws/src/pkg_antenna_modus' with build type 'ament_python'
+[1.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_antenna_modus', 'ament_prefix_path')
+[1.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/share/pkg_antenna_modus/hook/ament_prefix_path.ps1'
+[1.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/share/pkg_antenna_modus/hook/ament_prefix_path.dsv'
+[1.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/share/pkg_antenna_modus/hook/ament_prefix_path.sh'
+[1.884s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.884s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.893s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/berko-vm/ros2_ws/src/pkg_img' with build type 'ament_python'
+[1.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_img', 'ament_prefix_path')
+[1.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berko-vm/ros2_ws/src/install/pkg_img/share/pkg_img/hook/ament_prefix_path.ps1'
+[1.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/berko-vm/ros2_ws/src/install/pkg_img/share/pkg_img/hook/ament_prefix_path.dsv'
+[1.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berko-vm/ros2_ws/src/install/pkg_img/share/pkg_img/hook/ament_prefix_path.sh'
+[1.899s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.899s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.423s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/berko-vm/ros2_ws/src/launch_pkg'
+[2.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.953s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/berko-vm/ros2_ws/src/pkg_antenna_modus'
+[2.954s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.954s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.487s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/berko-vm/ros2_ws/src/pkg_img'
+[3.488s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.488s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/berko-vm/ros2_ws/src/pkg_img': PYTHONPATH=/home/berko-vm/ros2_ws/src/build/pkg_img/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/berko-vm/ros2_ws/src/install/pkg_img/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pkg_img build --build-base /home/berko-vm/ros2_ws/src/build/pkg_img/build install --record /home/berko-vm/ros2_ws/src/build/pkg_img/install.log --single-version-externally-managed install_data
+[4.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/berko-vm/ros2_ws/src/launch_pkg': PYTHONPATH=/home/berko-vm/ros2_ws/src/build/launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/berko-vm/ros2_ws/src/install/launch_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/launch_pkg build --build-base /home/berko-vm/ros2_ws/src/build/launch_pkg/build install --record /home/berko-vm/ros2_ws/src/build/launch_pkg/install.log --single-version-externally-managed install_data
+[4.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/berko-vm/ros2_ws/src/pkg_antenna_modus': PYTHONPATH=/home/berko-vm/ros2_ws/src/build/pkg_antenna_modus/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pkg_antenna_modus build --build-base /home/berko-vm/ros2_ws/src/build/pkg_antenna_modus/build install --record /home/berko-vm/ros2_ws/src/build/pkg_antenna_modus/install.log --single-version-externally-managed install_data
+[4.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/berko-vm/ros2_ws/src/launch_pkg' returned '0': PYTHONPATH=/home/berko-vm/ros2_ws/src/build/launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/berko-vm/ros2_ws/src/install/launch_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/launch_pkg build --build-base /home/berko-vm/ros2_ws/src/build/launch_pkg/build install --record /home/berko-vm/ros2_ws/src/build/launch_pkg/install.log --single-version-externally-managed install_data
+[4.993s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/launch_pkg' for CMake module files
+[4.994s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/launch_pkg' for CMake config files
+[4.996s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/launch_pkg/lib'
+[4.996s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/launch_pkg/bin'
+[4.997s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/launch_pkg/lib/pkgconfig/launch_pkg.pc'
+[4.997s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/launch_pkg/lib/python3.10/site-packages'
+[4.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_pkg', 'pythonpath')
+[4.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berko-vm/ros2_ws/src/install/launch_pkg/share/launch_pkg/hook/pythonpath.ps1'
+[4.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/berko-vm/ros2_ws/src/install/launch_pkg/share/launch_pkg/hook/pythonpath.dsv'
+[5.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berko-vm/ros2_ws/src/install/launch_pkg/share/launch_pkg/hook/pythonpath.sh'
+[5.001s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/launch_pkg/bin'
+[5.001s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_pkg)
+[5.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/berko-vm/ros2_ws/src/install/launch_pkg/share/launch_pkg/package.ps1'
+[5.004s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/berko-vm/ros2_ws/src/install/launch_pkg/share/launch_pkg/package.dsv'
+[5.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/berko-vm/ros2_ws/src/install/launch_pkg/share/launch_pkg/package.sh'
+[5.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/berko-vm/ros2_ws/src/install/launch_pkg/share/launch_pkg/package.bash'
+[5.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/berko-vm/ros2_ws/src/install/launch_pkg/share/launch_pkg/package.zsh'
+[5.016s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/berko-vm/ros2_ws/src/install/launch_pkg/share/colcon-core/packages/launch_pkg)
+[5.017s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/pkg_img' for CMake module files
+[5.018s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/pkg_img' for CMake config files
+[5.019s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/pkg_img/lib'
+[5.019s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/pkg_img/bin'
+[5.020s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/pkg_img/lib/pkgconfig/pkg_img.pc'
+[5.020s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/pkg_img/lib/python3.10/site-packages'
+[5.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/berko-vm/ros2_ws/src/pkg_img' returned '0': PYTHONPATH=/home/berko-vm/ros2_ws/src/build/pkg_img/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/berko-vm/ros2_ws/src/install/pkg_img/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pkg_img build --build-base /home/berko-vm/ros2_ws/src/build/pkg_img/build install --record /home/berko-vm/ros2_ws/src/build/pkg_img/install.log --single-version-externally-managed install_data
+[5.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_img', 'pythonpath')
+[5.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berko-vm/ros2_ws/src/install/pkg_img/share/pkg_img/hook/pythonpath.ps1'
+[5.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/berko-vm/ros2_ws/src/install/pkg_img/share/pkg_img/hook/pythonpath.dsv'
+[5.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berko-vm/ros2_ws/src/install/pkg_img/share/pkg_img/hook/pythonpath.sh'
+[5.024s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/pkg_img/bin'
+[5.024s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_img)
+[5.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/berko-vm/ros2_ws/src/install/pkg_img/share/pkg_img/package.ps1'
+[5.027s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/berko-vm/ros2_ws/src/install/pkg_img/share/pkg_img/package.dsv'
+[5.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/berko-vm/ros2_ws/src/install/pkg_img/share/pkg_img/package.sh'
+[5.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/berko-vm/ros2_ws/src/install/pkg_img/share/pkg_img/package.bash'
+[5.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/berko-vm/ros2_ws/src/install/pkg_img/share/pkg_img/package.zsh'
+[5.030s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/berko-vm/ros2_ws/src/install/pkg_img/share/colcon-core/packages/pkg_img)
+[5.033s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus' for CMake module files
+[5.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/berko-vm/ros2_ws/src/pkg_antenna_modus' returned '0': PYTHONPATH=/home/berko-vm/ros2_ws/src/build/pkg_antenna_modus/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pkg_antenna_modus build --build-base /home/berko-vm/ros2_ws/src/build/pkg_antenna_modus/build install --record /home/berko-vm/ros2_ws/src/build/pkg_antenna_modus/install.log --single-version-externally-managed install_data
+[5.039s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus' for CMake config files
+[5.040s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/lib'
+[5.041s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/bin'
+[5.041s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/lib/pkgconfig/pkg_antenna_modus.pc'
+[5.042s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/lib/python3.10/site-packages'
+[5.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_antenna_modus', 'pythonpath')
+[5.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/share/pkg_antenna_modus/hook/pythonpath.ps1'
+[5.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/share/pkg_antenna_modus/hook/pythonpath.dsv'
+[5.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/share/pkg_antenna_modus/hook/pythonpath.sh'
+[5.046s] Level 1:colcon.colcon_core.environment:checking '/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/bin'
+[5.046s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_antenna_modus)
+[5.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/share/pkg_antenna_modus/package.ps1'
+[5.048s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/share/pkg_antenna_modus/package.dsv'
+[5.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/share/pkg_antenna_modus/package.sh'
+[5.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/share/pkg_antenna_modus/package.bash'
+[5.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/share/pkg_antenna_modus/package.zsh'
+[5.051s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/berko-vm/ros2_ws/src/install/pkg_antenna_modus/share/colcon-core/packages/pkg_antenna_modus)
+[5.052s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.053s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.053s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.053s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.078s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.078s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.078s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.119s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.120s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/berko-vm/ros2_ws/src/install/local_setup.ps1'
+[5.123s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/berko-vm/ros2_ws/src/install/_local_setup_util_ps1.py'
+[5.127s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/berko-vm/ros2_ws/src/install/setup.ps1'
+[5.130s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/berko-vm/ros2_ws/src/install/local_setup.sh'
+[5.132s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/berko-vm/ros2_ws/src/install/_local_setup_util_sh.py'
+[5.133s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/berko-vm/ros2_ws/src/install/setup.sh'
+[5.137s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/berko-vm/ros2_ws/src/install/local_setup.bash'
+[5.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/berko-vm/ros2_ws/src/install/setup.bash'
+[5.142s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/berko-vm/ros2_ws/src/install/local_setup.zsh'
+[5.144s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/berko-vm/ros2_ws/src/install/setup.zsh'
