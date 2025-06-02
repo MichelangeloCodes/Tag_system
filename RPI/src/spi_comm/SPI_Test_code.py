@@ -11,7 +11,7 @@ try:
         resp = spi.xfer2([0x42]) #stuur 0x42
         print(f"response: {resp}")
         time.sleep(1)
-except KeyboardInterrupt:
+except KeyboardInterrupt: #druk op crtl+c om te stoppen
     spi.close
 
 print(spidev);
