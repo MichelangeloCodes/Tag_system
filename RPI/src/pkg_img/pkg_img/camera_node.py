@@ -11,14 +11,14 @@ class CameraNode(Node):
         super().__init__('camera_node')
 
         # Use your actual camera device path here (symlink under /dev/by-id)
-        self.device_path = '/dev/video0'
+        self.device_path = '/dev/video2'
 
         if not os.path.exists(self.device_path):
             self.get_logger().error(f"Device not found: {self.device_path}")
             rclpy.shutdown()
             return
 
-        self.cap = cv2.VideoCapture(self.device_path)
+        self.cap = cv2.VideoCapture(self.device_path, cv2.CAP_V4L2))
         if not self.cap.isOpened():
             self.get_logger().error(f"Failed to open camera at {self.device_path}")
             rclpy.shutdown()
