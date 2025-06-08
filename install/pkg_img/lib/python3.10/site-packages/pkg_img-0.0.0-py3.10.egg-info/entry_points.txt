@@ -1,4 +1,0 @@
-[console_scripts]
-cam_publisher = pkg_img.camera_node:main
-image_view = pkg_img.image_view:main
-

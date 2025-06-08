@@ -1,4 +1,0 @@
-[0.043s] Invoking command in '/home/berko-vm/ros2_ws/build/pkg_system_checker': /usr/bin/cmake /home/berko-vm/ros2_ws/src/pkg_system_checker -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/berko-vm/ros2_ws/install/pkg_system_checker
-[0.213s] [0mCMake Error: The source directory "/home/berko-vm/ros2_ws/src/pkg_system_checker" does not appear to contain CMakeLists.txt.
-[0.213s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.237s] Invoked command in '/home/berko-vm/ros2_ws/build/pkg_system_checker' returned '1': /usr/bin/cmake /home/berko-vm/ros2_ws/src/pkg_system_checker -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/berko-vm/ros2_ws/install/pkg_system_checker
