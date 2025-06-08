@@ -1,0 +1,3 @@
+[console_scripts]
+antenna_modus_node = pkg_antenna_modus.antenna_modus_node:main
+
