@@ -225,7 +225,7 @@ void loop()
 
   // Serial diagnostic (once every 200 ms)
   static unsigned long lastPrint = 0;
-  if (now - lastPrint > 200)
+  if (now - lastPrint > 500)
   {
     lastPrint = now;
     Serial.print("Yaw: ");
